@@ -50,6 +50,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    ActivitiesPertama(modifier = Modifier)
+}
+
+@Composable
 fun ActivitiesPertama(modifier: Modifier){
     Column(modifier = Modifier.padding(top = 100.dp).fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally) {

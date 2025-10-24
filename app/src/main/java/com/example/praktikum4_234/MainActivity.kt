@@ -140,6 +140,7 @@ fun ActivitiesPertama(modifier: Modifier){
                         color = Color.White,
                         modifier = Modifier.padding(top = 8.dp)
                     )
+                }
             }
         }
         Box(

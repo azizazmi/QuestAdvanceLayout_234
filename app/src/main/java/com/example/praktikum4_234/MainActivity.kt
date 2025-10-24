@@ -151,7 +151,11 @@ fun ActivitiesPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Green
             )
-        ) {}
+        ) {
+            Row() {
+                val gambar3 = painterResource(id = R.drawable.logo_umy)
+            }
+        }
         Box(
             modifier = Modifier
                 .fillMaxSize()){

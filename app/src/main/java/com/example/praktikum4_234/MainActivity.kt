@@ -119,6 +119,7 @@ fun ActivitiesPertama(modifier: Modifier){
                     contentDescription = null,
                     modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
                 )
+                Spacer(modifier = Modifier.width(width = 30.dp))
             }
         }
         Box(

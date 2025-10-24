@@ -159,7 +159,15 @@ fun ActivitiesPertama(modifier: Modifier){
                     contentDescription = null,
                     modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
                 )
-                Spacer(modifier = Modifier.width(width = 30.dp)))
+                Spacer(modifier = Modifier.width(width = 30.dp))
+                Column() {
+                    Text(
+                        text = stringResource(id = R.string.nama3),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Serif,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White
+                    )
             }
         }
         Box(

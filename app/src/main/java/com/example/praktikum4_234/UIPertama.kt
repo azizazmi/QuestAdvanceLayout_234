@@ -87,14 +87,14 @@ fun ActivitiesPertama(modifier: Modifier){
                     Text(
                         text = stringResource(id = R.string.nama2),
                         fontSize = 30.sp,
-                        fontFamily = FontFamily.Serif,
+                        fontFamily = FontFamily.Cursive,
                         fontWeight = FontWeight.Bold,
                         color = Color.White
                     )
                     Text(
                         text = stringResource(id = R.string.alamat2),
                         fontSize = 20.sp,
-                        color = Color.Cyan,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 8.dp)
                     )
                     Text(
@@ -127,14 +127,14 @@ fun ActivitiesPertama(modifier: Modifier){
                     Text(
                         text = stringResource(id = R.string.nama3),
                         fontSize = 30.sp,
-                        fontFamily = FontFamily.Serif,
+                        fontFamily = FontFamily.Cursive,
                         fontWeight = FontWeight.Bold,
                         color = Color.White
                     )
                     Text(
                         text = stringResource(id = R.string.alamat3),
                         fontSize = 20.sp,
-                        color = Color.Cyan,
+                        color = Color.Yellow,
                         modifier = Modifier.padding(top = 8.dp)
                     )
                     Text(

@@ -54,6 +54,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     ActivitiesPertama(modifier = Modifier)
 }
 
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Praktikum4_234Theme {
+        Greeting("Android")
+    }
+}
+
 @Composable
 fun ActivitiesPertama(modifier: Modifier){
     Column(modifier = Modifier.padding(top = 100.dp).fillMaxSize(),

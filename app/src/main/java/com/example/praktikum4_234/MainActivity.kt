@@ -134,7 +134,12 @@ fun ActivitiesPertama(modifier: Modifier){
                         color = Color.Cyan,
                         modifier = Modifier.padding(top = 8.dp)
                     )
-
+                    Text(
+                        text = stringResource(id = R.string.notelp),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 8.dp)
+                    )
             }
         }
         Box(

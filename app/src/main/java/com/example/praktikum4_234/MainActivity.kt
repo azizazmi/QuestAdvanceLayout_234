@@ -114,6 +114,11 @@ fun ActivitiesPertama(modifier: Modifier){
         ){
             Row() {
                 val gambar2 = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar2,
+                    contentDescription = null,
+                    modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
+                )
             }
         }
         Box(
